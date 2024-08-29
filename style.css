@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+    font-family: "Noto Sans Mono", Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --violet-blue: #3F51B5;
+    --ash-gray: #9BC1BC;
+    --alabaster: #E6EBE0;
+    --lemon-chiffon: #F4F1BB;
+    --sinopia: #BA5A31;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header {
+    height: 95px;
+    width: 100%;
+    background-color: var(--violet-blue);
+    position: fixed;
+    z-index: 1;
+}
+
+header a {
+    color: var(--alabaster);
+    text-decoration: none;
+    margin: 40px;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li a:hover {
+    color: var(--ash-gray);
+}
+
+#contact {
+    font: normal bold 1.4em Arial;
+    padding: 10px;
+    border-radius: 99px;
+    background-color: var(--alabaster);
+    color: var(--violet-blue);
+}
+
+#contact:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

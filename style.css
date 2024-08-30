@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
-    font-family: "Noto Sans Mono", Arial, sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -15,52 +16,85 @@
     --sinopia: #BA5A31;
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-    display: flex;
+body, html {
+    font-family: "Noto Sans Mono", Arial, sans-serif;
+    background-color: var(--lemon-chiffon);
 }
 
-.header {
-    justify-content: space-between;
+.container {
+    width: 100%;
+    padding: 5px 25px;
+}
+
+.flex {
+    display: flex;
     align-items: center;
-    
 }
 
 header {
     height: 95px;
-    width: 100%;
     background-color: var(--violet-blue);
-    position: fixed;
-    z-index: 1;
+    
 }
 
 header a {
     color: var(--alabaster);
     text-decoration: none;
-    margin: 40px;
 }
 
-.nav-container ul{
+header > .container {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
     display: flex;
     justify-content: space-between;
+    gap: 45px;
+}
+
+header nav ul li {
     list-style: none;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     color: var(--ash-gray);
 }
 
 #contact {
-    font: normal bold 1.4em Arial;
-    padding: 10px;
-    border-radius: 99px;
+    border: 0px, solid, var(--alabaster);
     background-color: var(--alabaster);
+    border-radius: 99px;
+    padding: 15px;
     color: var(--violet-blue);
+    font: normal 900 1.2em Arial;
 }
 
 #contact:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about-me {
+    background-color: var(--alabaster);
+    height: 500px;
+}
+
+#about-me h2 > span {
+    font: normal 400 1em "Open Sans" ;
+}
+
+#about-me h2 {
+    font: normal bolder 2em "Noto Sans Mono";
+}
+
+#about-me p {
+    font: normal lighter 1em "Open Sans";
+    padding: 5px;
+}
+
+#about-me .content {
+    width: 50%;
 }

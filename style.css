@@ -115,18 +115,16 @@ header nav ul li a:hover {
 
 #about-me picture {
     justify-content: center;
-    width: 400px;
-    height: 450px;
     margin-top: 50px;
     margin-right: 70px;
-    background-color: var(--sinopia);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #about-me picture img {
+    width: 350px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #skills {

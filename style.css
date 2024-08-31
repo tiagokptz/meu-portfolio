@@ -128,7 +128,7 @@ header nav ul li a:hover {
 }
 
 #skills {
-    background-color: var(--ash-gray);
+    background-image: linear-gradient(to bottom,#E6EBE0,#d1e0d1,#b3c8c0,#9BC1BC,#9BC1BC);
     height: 600px;
 }
 
@@ -160,15 +160,16 @@ header nav ul li a:hover {
 #skills ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 40px;
-    gap: 60px;
+    gap: 65px;
 }
 
 #skills ul li {
     list-style: none;
 }
 
-.fa-java, .fa-js, .fa-html5, .fa-css3-alt {
+.fa-java, .fa-js, .fa-html5, .fa-css3-alt, .fa-github {
     color: var(--alabaster);
     font-size: 60px;
 }

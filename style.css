@@ -128,6 +128,21 @@ header nav ul li a:hover {
 }
 
 #skills {
-    background-color: var(--ash-gray);
+    background-image: linear-gradient(to bottom,#E6EBE0,#d1e0d1,#b3c8c0,#9BC1BC,#9BC1BC);
     height: 600px;
+}
+
+#skills .technologies {
+    border: 2px solid black;
+    margin: 20px 0px;
+    width: 500px;
+    height: 550px;
+}
+
+#skills .teste {
+    border: 2px solid black;
+    margin: 20px;
+    width: 950px;
+    height: 550px;
+    
 }

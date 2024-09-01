@@ -128,7 +128,7 @@ header nav ul li a:hover {
 }
 
 #skills {
-    background-image: linear-gradient(to bottom,#E6EBE0,#d1e0d1,#b3c8c0,#9BC1BC,#9BC1BC);
+    background-color: var(--ash-gray);
     height: 600px;
 }
 
@@ -137,8 +137,13 @@ header nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin: 20px 0px;
-    width: 500px;
+    width: 700px;
     height: 550px;
+}
+
+.fa-java, .fa-js, .fa-html5, .fa-css3-alt, .fa-github, .fa-python {
+    color: var(--alabaster);
+    font-size: 60px;
 }
 
 #skills h2 {
@@ -148,28 +153,11 @@ header nav ul li a:hover {
     color: var(--alabaster);
 }
 
-#skills .teste {
-    background-color: var(--sinopia);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    margin: 20px;
-    width: 950px;
-    height: 550px;
-}
-
 #skills ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    gap: 65px;
+    margin: 40px 20px;
 }
 
 #skills ul li {
     list-style: none;
-}
-
-.fa-java, .fa-js, .fa-html5, .fa-css3-alt, .fa-github {
-    color: var(--alabaster);
-    font-size: 60px;
+    margin-bottom: 15px;
 }

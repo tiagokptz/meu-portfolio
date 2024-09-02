@@ -12,8 +12,11 @@
     --violet-blue: #3F51B5;
     --ash-gray: #9BC1BC;
     --alabaster: #E6EBE0;
-    --lemon-chiffon: #F4F1BB;
-    --sinopia: #BA5A31;
+    --lemon-chiffon: #F4F1BB; 
+    --yinmn-blue: #4D6185;
+
+    --noto: "Noto Sans Mono";
+    --sans: "Open Sans"
 }
 
 body, html {
@@ -90,16 +93,16 @@ header nav ul li a:hover {
 }
 
 #about-me h2 > span {
-    font: normal 400 1em "Open Sans" ;
+    font: normal 400 1em var(--sans);
 }
 
 #about-me h2 {
-    font: normal bolder 2em "Noto Sans Mono";
+    font: normal bolder 2em var(--noto);
     margin-bottom: 10px;
 }
 
 #about-me p {
-    font: normal lighter 1em "Open Sans";
+    font: normal lighter 1em var(--sans);
     text-align: justify;
     line-height: 1.5em;
 }
@@ -133,21 +136,21 @@ header nav ul li a:hover {
 }
 
 #skills .technologies {
-    background-color: var(--sinopia);
+    background-color: var(--yinmn-blue);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin: 20px 0px;
-    width: 700px;
+    width: 600px;
     height: 550px;
 }
 
-.fa-java, .fa-js, .fa-html5, .fa-css3-alt, .fa-github, .fa-python {
+.fa-brands {
     color: var(--alabaster);
-    font-size: 60px;
+    font-size: 55px;
 }
 
 #skills h2 {
-    font: normal bold 1.5em "Noto Sans Mono";
+    font: normal bold 1.5em var(--noto);
     margin: 10px;
     text-align: center;
     color: var(--alabaster);
@@ -159,5 +162,5 @@ header nav ul li a:hover {
 
 #skills ul li {
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }

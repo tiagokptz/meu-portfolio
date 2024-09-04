@@ -147,6 +147,7 @@ header nav ul li a:hover {
 .fa-brands {
     color: var(--alabaster);
     font-size: 55px;
+    margin-right: 20px;
 }
 
 #skills h2 {
@@ -161,6 +162,17 @@ header nav ul li a:hover {
 }
 
 #skills ul li {
+    display: flex;
+    align-items: center;
     list-style: none;
     margin-bottom: 20px;
+}
+
+#skills ul li div {
+    flex-grow: 1;
+    background-color: var(--alabaster);
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
 }
